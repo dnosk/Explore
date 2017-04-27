@@ -125,7 +125,11 @@ and then to return an array of apps downloaded, use
 exploreAppsDownloaded()
 ```
 
-To remove the debugging on this, in Xcode go to Product -> Scheme -> Edit Scheme. Make sure that the run panel is selected on the left. Then add the following to environment variables. Name: OS_ACTIVITY_MODE Value: disable
+To remove the debugging on this, in Xcode go to Product -> Scheme -> Edit Scheme. Make sure that the run panel is selected on the left. Then add the following to environment variables.
+
+```swift
+Name: OS_ACTIVITY_MODE Value: disable
+```
 
 Best practices would be to only request this from your user once and save to analytics. Maybe saving to UserDefaults once you have grabbed the downloaded apps does the trick.
 
