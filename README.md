@@ -20,7 +20,7 @@ pod "Explore"
 
 Next, copy and paste the following array into your Info.plist
 
-```ruby
+```swift
 <key>LSApplicationQueriesSchemes</key>
 <array>
 <string>allo</string>
@@ -110,7 +110,8 @@ Next, copy and paste the following array into your Info.plist
 <string>yo</string>
 <string>youtube</string>
 <string>youtubez</string>
-<string>youtubemusic</string>```
+<string>youtubemusic</string>
+```
 
 Now all you need to do is
 
