@@ -1,0 +1,6 @@
+framework module Explore {
+  umbrella header "Explore-umbrella.h"
+
+  export *
+  module * { export * }
+}

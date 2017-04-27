@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* Explore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Explore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		CC61B3F389EDDCFB9114F4F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC61B3F389EDDCFB9114F4F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D45CCF0C2316A38B55AB29ED /* Pods-Explore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Explore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Explore_Example/Pods-Explore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D682FEEC58F9AC261DD0DAC4 /* Explore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Explore.podspec; path = ../Explore.podspec; sourceTree = "<group>"; };
-		E13F8908E8121C3ED62CA687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D682FEEC58F9AC261DD0DAC4 /* Explore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Explore.podspec; path = ../Explore.podspec; sourceTree = "<group>"; };
+		E13F8908E8121C3ED62CA687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EABFD37C16AD6B0AE66D210E /* Pods-Explore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Explore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Explore_Example/Pods-Explore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F094F16A4C8608F44763A08F /* Pods_Explore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Explore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,9 +104,9 @@
 		607FACD21AFB9204008FA782 /* Example for Explore */ = {
 			isa = PBXGroup;
 			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P8G652T28X;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P8G652T28X;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = EABFD37C16AD6B0AE66D210E /* Pods-Explore_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8G652T28X;
 				INFOPLIST_FILE = Explore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = D45CCF0C2316A38B55AB29ED /* Pods-Explore_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8G652T28X;
 				INFOPLIST_FILE = Explore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D0E0E38619A2EB5394367FD /* Pods-Explore_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P8G652T28X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D95FF8FD1EEDE884DB9F386 /* Pods-Explore_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P8G652T28X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,16 @@
+PODS:
+  - Explore (0.1.0)
+
+DEPENDENCIES:
+  - Explore (from `../`)
+
+EXTERNAL SOURCES:
+  Explore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Explore: 167a6ee23a39290d32ca9add7c0f99de763bc6be
+
+PODFILE CHECKSUM: ca234488ce492fc7a0f7cea3b58038705ca956c9
+
+COCOAPODS: 1.2.1
