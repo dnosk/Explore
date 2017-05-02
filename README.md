@@ -113,6 +113,7 @@ Next, copy and paste the following array into your Info.plist
 <string>youtube</string>
 <string>youtubez</string>
 <string>youtubemusic</string>
+</array>
 ```
 
 Now all you need to do is
