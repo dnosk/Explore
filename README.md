@@ -111,7 +111,6 @@ Next, copy and paste the following array into your Info.plist
 <string>yikyak</string>
 <string>yo</string>
 <string>youtube</string>
-<string>youtubez</string>
 <string>youtubemusic</string>
 </array>
 ```
