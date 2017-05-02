@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Explore'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Explore downloaded apps'
   s.description      = 'Explore easily lets you check to see which apps a user has downloaded. This can be used to help better understand your user to improve the user experience.'
 

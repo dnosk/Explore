@@ -27,6 +27,7 @@ Next, copy and paste the following array into your Info.plist
 <string>airbnb</string>
 <string>airtable</string>
 <string>airtime</string>
+<string>blind</string>
 <string>boomerang</string>
 <string>box</string>
 <string>breaker</string>
@@ -79,6 +80,7 @@ Next, copy and paste the following array into your Info.plist
 <string>pinterest</string>
 <string>prisma</string>
 <string>producthunt</string>
+<string>reddit</string>
 <string>robinhood</string>
 <string>shazam</string>
 <string>skype</string>
